@@ -99,7 +99,7 @@ document.querySelectorAll(".steen, .aarde").forEach(vak => {
             }
         }
         else {
-            toonFoutmelding("Gebruik de juiste tool!");
+            toonFoutmelding();
             document.getElementById("geluidVerkeerd").play();
         }
     });
