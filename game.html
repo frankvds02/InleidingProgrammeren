@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Game</title>
+        <link rel="stylesheet" href="style.css">
+        <audio id="geluidSteen" src="geluiden/geluidSteen.mov" preload="auto"></audio>
+        <!--Bron: https://www.youtube.com/watch?v=npL3NfpOd9A-->
+        <audio id="geluidAarde" src="geluiden/geluidAarde.mov" preload="auto"></audio>
+        <!--Bron: https://www.youtube.com/watch?v=tzF4ulFOdf0-->
+        <audio id="geluidVerkeerd" src="geluiden/verkeerde_tool.mp3" preload="auto"></audio>
+        <!--Bron: https://pixabay.com/sound-effects/metal-impact-247482/-->
+    </head>
+    <body>
+        <h1>Schatgraver</h1>
+        <div id="balk">
+            <div id="tijdbalk">
+            </div>
+        </div>
+        <p id="balkTekst">Zetten over: 20</p>
+        <section class="tools">
+            <img src="afbeeldingen/icon_schep.png" alt="Icoon van een schep"><h2 id="schep">Schep</h2>
+            <img src="afbeeldingen/icon_pikhouweel.png" alt="Icoon van een pikhouweel"><h2 id="pikhouweel">Pikhouweel</h2>
+        </section>
+        <section>
+            <p id="foutmelding">Verkeerde tool geselecteerd!</p>
+            <article id="popupVerloren">
+                <div class="popupTekst">
+                  <h2>Je hebt verloren!</h2>
+                  <button class="button" id="herstartVerloren">Opnieuw spelen</button>
+                  <a href="index.html"><button class="button">Terug naar home</button></a>
+                </div>
+            </article>
+            <article id="popupGewonnen">
+                <div class="popupTekst">
+                  <h2>Je hebt de schat gevonden!</h2>
+                  <p>Klaar voor je volgende opgraving?</p>
+                  <button class="button" id="herstartGewonnen">Opnieuw spelen</button>
+                  <a href="index.html"><button class="button">Terug naar home</button></a>
+                </div>
+            </article>
+        </section>
+        <section class="omlijning">
+            <div class="opgraving">
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+                <div class="vak">
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
